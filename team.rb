@@ -16,6 +16,7 @@ class Team
     def show_team_result
         puts "#{self.name} の2020年の成績は #{self.win}勝 #{self.lose}敗 #{self.draw}分、勝率は #{self.calc_win_rate}です。"
     end
+end
     
 team_A = Team.new("Giants",67,45,8)
 team_B = Team.new("Tigers",60,53,7)
@@ -31,4 +32,3 @@ team_D.show_team_result
 team_E.show_team_result
 team_F.show_team_result
 
-end
